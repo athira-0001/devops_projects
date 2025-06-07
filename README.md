@@ -7,5 +7,8 @@ Project 2 : Ansible project\
 Created an ansible playbook to install and start Nginx on 2 target servers\
 \
 Project 3 : Terraform project\
-Created EC2 instances on AWS using Terraform
+Created EC2 instances on AWS using Terraform\
+\
+Project 4 : Docker project\
+Containerized a Django web application using Docker container
 
