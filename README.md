@@ -11,5 +11,7 @@ Created EC2 instances on AWS using Terraform\
 \
 Project 4 : Docker project\
 Containerized a Django web application using Docker container\
-Containerized a java application with and without multi-stage docker build
+Containerized a java application with and without multi-stage docker build :\
+Without multi-stage docker build image size was 909mb\
+With multi-stage docker build image size was 226mb
 
