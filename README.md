@@ -10,5 +10,6 @@ Project 3 : Terraform project\
 Created EC2 instances on AWS using Terraform\
 \
 Project 4 : Docker project\
-Containerized a Django web application using Docker container
+Containerized a Django web application using Docker container\
+Containerized a java application with and without multi-stage docker build
 
