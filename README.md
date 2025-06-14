@@ -14,5 +14,5 @@ i.Containerized a Django web application using Docker container\
 ii.Containerized a java application with and without multi-stage docker build :\
 Without multi-stage docker build image size was 909mb\
 With multi-stage docker build image size was 226mb\
-iii.Containerized a three tier application containing nginx,node.js and redis using docker compose
+iii.Containerized a Node.js application with Nginx proxy and a Redis caching system using docker compose
 
