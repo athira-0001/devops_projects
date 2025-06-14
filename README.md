@@ -10,9 +10,9 @@ Project 3 : Terraform project\
 Created EC2 instances on AWS using Terraform\
 \
 Project 4 : Docker project\
-1. Containerized a Django web application using Docker container\
-2. Containerized a java application with and without multi-stage docker build :\
+i.Containerized a Django web application using Docker container\
+ii.Containerized a java application with and without multi-stage docker build :\
 Without multi-stage docker build image size was 909mb\
 With multi-stage docker build image size was 226mb\
-3. Containerized a three tier application containing nginx,node.js and redis using docker compose
+iii.Containerized a three tier application containing nginx,node.js and redis using docker compose
 
