@@ -15,5 +15,8 @@ ii. Containerized a java application with and without multi-stage docker build :
 Without multi-stage docker build image size was 909mb\
 With multi-stage docker build image size was 226mb\
 iii. Containerized a Node.js application with Nginx proxy and a Redis caching system using docker compose\
-iv. Containerized a three tier MERN stack application using docker compose 
+iv. Containerized a three tier MERN stack application using docker compose\
+\
+Project 5 : Kubernetes project\
+Deployed Nginx application on kubernets using Deployment object with 3 replicas
 
