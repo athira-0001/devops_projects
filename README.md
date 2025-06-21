@@ -18,5 +18,5 @@ iii. Containerized a Node.js application with Nginx proxy and a Redis caching sy
 iv. Containerized a three tier MERN stack application using docker compose\
 \
 Project 5 : Kubernetes project\
-Deployed Nginx application on kubernetes using Deployment object with 3 replicas
+Deployed Django application in kubernetes cluster using service of type NodePort
 
