@@ -7,7 +7,8 @@ Project 2 : Ansible project\
 Created an ansible playbook to install and start Nginx on 2 target servers\
 \
 Project 3 : Terraform project\
-Created EC2 instances on AWS using Terraform\
+i. Created EC2 instances on AWS using Terraform\
+ii. Created EC2 instance using s3 as remote backend and implemented locking mechanism using dynamodb\
 \
 Project 4 : Docker project\
 i. Containerized a Django web application using Docker container\
