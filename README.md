@@ -9,6 +9,7 @@ Created an ansible playbook to install and start Nginx on 2 target servers\
 Project 3 : Terraform project\
 i. Created EC2 instances on AWS using Terraform\
 ii. Created EC2 instance using s3 as remote backend and implemented locking mechanism using dynamodb\
+iii. Using terraform created VPC, public subnet , EC2 instance - attached it with security group and deployed application to instance using terraform provisioners - implemented a zero touch automation here\
 \
 Project 4 : Docker project\
 i. Containerized a Django web application using Docker container\
