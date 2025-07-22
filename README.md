@@ -20,5 +20,8 @@ iii. Containerized a Node.js application with Nginx proxy and a Redis caching sy
 iv. Containerized a three tier MERN stack application using docker compose\
 \
 5_Kubernetes\
-Deployed a Django application to a Kubernetes cluster using a NodePort Service and set up an NGINX Ingress Controller to enable load balancing and path-based routing via an Ingress resource
+Deployed a Django application to a Kubernetes cluster using a NodePort Service and set up an NGINX Ingress Controller to enable load balancing and path-based routing via an Ingress resource\
+\
+6_End_To_End_CI_CD\
+Automated end to end CI/CD - used Jenkins for CI and ArgoCD for CD to Kubernetes 
 
