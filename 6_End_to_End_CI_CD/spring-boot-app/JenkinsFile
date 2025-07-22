@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'master', url: 'https://github.com/athira-0001/MyCode.git'
+        //git branch: 'main', url: 'https://github.com/athira-0001/devops_projects.git'
       }
     }
     stage('Build and Test') {
@@ -46,7 +46,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "MyCode"
+            GIT_REPO_NAME = "devops_projects"
             GIT_USER_NAME = "athira-0001"
         }
         steps {
@@ -55,10 +55,10 @@ pipeline {
                     git config user.email "sivamathira@yahoo.com"
                     git config user.name "Athira Sivadas"
                     BUILD_NUMBER=${BUILD_NUMBER}
-                    sed -i "s/replaceImageTag/${BUILD_NUMBER}/g" java-maven-sonar-argocd-k8s/spring-boot-app-manifests/deployment.yml
-                    git add java-maven-sonar-argocd-k8s/spring-boot-app-manifests/deployment.yml
+                    sed -i "s/replaceImageTag/${BUILD_NUMBER}/g" spring-boot-app-manifests/deployment.yml
+                    git add spring-boot-app-manifests/deployment.yml
                     git commit -m "Update deployment image to version ${BUILD_NUMBER}"
-                    git push https://${GITHUB_TOKEN}@github.com/${GIT_USER_NAME}/${GIT_REPO_NAME} HEAD:master
+                    git push https://${GITHUB_TOKEN}@github.com/${GIT_USER_NAME}/${GIT_REPO_NAME} HEAD:main
                 '''
             }
         }
